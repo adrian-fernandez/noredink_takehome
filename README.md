@@ -46,8 +46,8 @@ We would like you to write a program to select questions for a quiz. Please feel
 ### Bonus Requirements
 Choose any or all of the following, time permitting:
 * Write reasonable tests
-* Parse the CSVs files instead of hard-coding the data.
-* Order the questions in the quiz from easiest to hardest.
+  * Parse the CSVs files instead of hard-coding the data.
+  * Order the questions in the quiz from easiest to hardest.
 * Using the usage file, prefer questions that students have not answered.
 * Using the usage file, prefer questions that students have not been assigned.
 * Using the usage file, consider questions you assign *also assigned*

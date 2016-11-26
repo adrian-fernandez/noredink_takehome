@@ -9,7 +9,7 @@ module DataLoader
   end
 
   def self.get_usages
-    DataLoader.load_data(DATA_QUESTIONS, Question)
+    DataLoader.load_data(DATA_USAGES, Usage)
   end
 
   private
