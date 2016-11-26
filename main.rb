@@ -1,3 +1,5 @@
 require './requires.rb'
 
-challenge = QuizBuilder.new(3)
+quiz = Quiz.new(3)
+
+puts quiz.to_s

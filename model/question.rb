@@ -52,6 +52,7 @@ class Question
 
   # Output expects question_id
   def to_s
-    "ID: #{question_id}, strand_id: #{strand_id}, standard_id: #{standard_id}, answered_ago: #{answered_ago}, assigned_ago: #{assigned_ago}, difficulty: #{difficulty}"
+#    "ID: #{question_id}, strand_id: #{strand_id}, standard_id: #{standard_id}, answered_ago: #{answered_ago}, assigned_ago: #{assigned_ago}, difficulty: #{difficulty}"
+    question_id
   end
 end
