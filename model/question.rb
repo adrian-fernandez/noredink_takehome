@@ -7,4 +7,9 @@ class Question
   def initialize(data)
     data.each { |key, value| send("#{key}=", value) }
   end
+
+  # Output expects question_id
+  def to_s
+    "ID: #{question_id}, strand_id: #{strand_id}, standard_id: #{standard_id}"
+  end
 end
